@@ -381,3 +381,39 @@ function renderBookmarks() {
 renderBookmarks();
 
 
+
+
+
+
+
+$(document).on("keydown", (event) => {
+    // إذا تم الضغط على مفتاح Enter
+    if (event.key === "Enter") {
+        // تأخير تنفيذ الضغط على الزر لبضع ميلي ثانية (100ms على سبيل المثال)
+        setTimeout(() => {
+            $("#submitBtn").click(); // محاكاة الضغط على زر الإرسال
+        }, 100); // 100ms تأخير
+    }
+
+    // إذا تم الضغط على السهم للأسفل، تحرك إلى الحقل التالي
+    if (event.key === "ArrowDown") {
+        const focusedElement = $(':focus');
+        if (focusedElement.is('#bookmarkName')) {
+            $('#bookmarkURL').focus(); // الانتقال إلى الحقل الثاني
+        } else if (focusedElement.is('#bookmarkURL')) {
+            $('#submitBtn').focus(); // الانتقال إلى الزر
+        }
+    }
+
+    // إذا تم الضغط على السهم للأعلى، تحرك إلى الحقل السابق
+    if (event.key === "ArrowUp") {
+        const focusedElement = $(':focus');
+        if (focusedElement.is('#bookmarkURL')) {
+            $('#bookmarkName').focus(); // العودة إلى الحقل الأول
+        } else if (focusedElement.is('#submitBtn')) {
+            $('#bookmarkURL').focus(); // العودة إلى حقل الـ URL
+        }
+    }
+});
+
+
