@@ -1,8 +1,8 @@
 # 🍴🥘 Yummy - Your Go-To Recipe and Food Discovery Platform 
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/user-attachments/assets/969b2ae2-ec44-41a3-b9e0-1bbac707f5e4" alt="Yummy 2"  style="width: 48%; margin-right: 1%;">
-    <img src="https://github.com/user-attachments/assets/ab2339c1-0d05-40d5-9e8a-6b87c8d2fda1" alt="Yummy 1"  style="width: 48%;">
+    <img src="https://github.com/user-attachments/assets/8f2d26e5-6a6c-4f5d-b662-ac7efc561a98" alt="Bookmarker-1"  style="width: 48%; margin-right: 1%;">
+    <img src="https://github.com/user-attachments/assets/07b42d2c-577b-4631-9bb9-929da02725ed" alt="Bookmarker-2"  style="width: 48%;">
 </div>
 <div>
     <br>
