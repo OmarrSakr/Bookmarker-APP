@@ -1,4 +1,4 @@
-# 🍴🥘 Yummy - Your Go-To Recipe and Food Discovery Platform 
+# 🚀📚 Bookmarker - Your Go-To Bookmarking and Link Organization Platform
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github.com/user-attachments/assets/8f2d26e5-6a6c-4f5d-b662-ac7efc561a98" alt="Bookmarker-1"  style="width: 48%; margin-right: 1%;">
@@ -8,45 +8,15 @@
     <br>
 </div>
 
-- `Yummy` is a dynamic **food discovery** platform that helps users explore various **recipes** based on **ingredients**, **categories**, and regions.
-- This platform is a `dynamic website` that offers `real-time food discovery`, including **recipe search**, **ingredient-based** suggestions, and more.
-- The website is designed with a clean and `user-friendly interface`, making it easy for food enthusiasts to find recipes, explore categories, and stay up to date with new `meal ideas`.
-- Below are the main sections of the website👇:
+**`Bookmarker`** is a **versatile bookmarking platform** that helps users organize and `store links`, `webpages`, and `resources`, making it easy to manage and access them later.
+This platform offers *`real-time bookmarking`*, including `searchable tags`, `Table Input`, and more.
+The website features a clean and intuitive interface, allowing users to categorize their links, add descriptions, and easily retrieve their *`stored bookmarks`*.
+Below are the main sections of the website👇:
 
 ---
 
 ## Live Demo 🌐
-- Check out the live demo of the project at [`Yummy - Food Discovery Platform`](https://omarrsakr.github.io/Bookmarker-APP/).
-
----
-
-## 🛠 Website Contents
-<code>1. *Header*:</code>
-- **Site Title**: Displays "Yummy" with a relevant logo.
-- **Search Bar**: Allows users to search for recipes or ingredients by name.
-- **Navigation Links**: Includes links to various sections such as categories, areas, and ingredients.  
-
-<code>2. *Recipe Search Section*:</code>
-- **Search Results**: Displays recipes based on search terms, such as ingredients, cuisine, or meal type.
-- **Recipe Cards**: Each card shows the dish name, image, and a short description.
-
-<code>3. *Categories Section*:</code>
-- **Category Cards**: Displays various categories like "Breakfast," "Lunch," "Dinner," "Desserts," etc.
-- **Explore by Category**: Users can filter recipes based on meal categories.
-
-<code> 4. *Area-Based Section*:</code>
-- **Region-Specific Recipes**: Recipes categorized by region or cuisine (e.g., Italian, Mexican, Asian).
-- **Region Cards**: Displays food from specific areas to help users discover new flavors.
-
-<code> 5. *Ingredients Section*:</code>
-- **Ingredients Search**: Allows users to search for recipes based on the ingredients they have at home.
-- **Recipe Suggestions**: Displays recipe suggestions based on the entered ingredients.
-
-<code> 6. *Contact Us Section*:</code>
-- **Contact Form**: Users can reach out to the Yummy team for feedback, questions, or partnership inquiries.
-
-<code> 7. *External Resources*:</code>
-- **Toggle Dark/Light Theme**: Users can switch between dark and light themes for an enhanced browsing experience.
+- Check out the live demo of the project at [*`Bookmarker Site.`*](https://omarrsakr.github.io/Bookmarker-APP/).
 
 ---
 
