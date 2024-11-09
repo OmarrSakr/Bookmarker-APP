@@ -16,7 +16,7 @@ Below are the main sections of the website👇:
 ---
 
 ## Live Demo 🌐
-- Check out the live demo of the project at [*`Bookmarker Site.`*](https://omarrsakr.github.io/Bookmarker-APP/).
+- Check out the live demo of the project at [**`Bookmarker Site.`**](https://omarrsakr.github.io/Bookmarker-APP/).
 
 ---
 
