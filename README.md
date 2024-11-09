@@ -16,7 +16,7 @@
 ---
 
 ## Live Demo 🌐
-- Check out the live demo of the project at [`Yummy - Food Discovery Platform`](omarrsakr.github.io/Bookmarker-Site/).
+- Check out the live demo of the project at [`Yummy - Food Discovery Platform`](https://omarrsakr.github.io/Bookmarker-APP/).
 
 ---
 
