@@ -1,4 +1,4 @@
-# 🚀📚 Bookmarker - Your Go-To Bookmarking and Link Organization Platform
+# 🚀🔖 Bookmarker - Your Go-To Bookmarking and Link Organization Platform
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github.com/user-attachments/assets/8f2d26e5-6a6c-4f5d-b662-ac7efc561a98" alt="Bookmarker-1"  style="width: 48%; margin-right: 1%;">
