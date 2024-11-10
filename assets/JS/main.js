@@ -135,7 +135,7 @@ $("#submitBtn").on("click", () => {
 
 
 function uNameValidation(uName) {
-    const uNamePattern = /^(?!\s)[\w\s\p{L}@#_,.\-/|!$&^%+=><()*]{3,}$/u;
+    const uNamePattern = /^(?!\s)[\w\s\p{L}@#_,.\-/|!$&^%+=><()*?\\؟]{3,}$/u;
     const valid = uNamePattern.test(uName);
     const inputElement = $("#bookmarkName")[0];
     if (valid) {
