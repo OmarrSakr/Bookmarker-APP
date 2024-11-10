@@ -48,7 +48,7 @@ const messagesAlert = {
         title: "Oops...",
         text: "The Site Name or URL is not valid.",
         footer: `<p class="text-start fw-semibold">
-        <i class="icon-angle-double-right text-danger"></i> The Site Name must contain at least 3 characters. 
+        <i class="icon-angle-double-right text-danger"></i>The Site Name must contain at least 3 characters and must not start with a space. 
         <br>
         <i class="icon-angle-double-right text-danger"></i> The Site URL must be valid.</p>`
     },
@@ -135,7 +135,7 @@ $("#submitBtn").on("click", () => {
 
 
 function uNameValidation(uName) {
-    const uNamePattern = /^(?!\s)(?!.*\s$)[a-zA-Z0-9\u0600-\u06FF@#_,.\s]{3,}$/;
+    const uNamePattern = /^(?!\s)[\w\s\p{L}@#_,.\-/|!$&^%+=><()*]{3,}$/u;
     const valid = uNamePattern.test(uName);
     const inputElement = $("#bookmarkName")[0];
     if (valid) {
