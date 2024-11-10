@@ -43,55 +43,116 @@ $(() => {
 
 // ?========================================> alert messages <===============================
 const messagesAlert = {
-    msgErrorObj: {
-        icon: "error",  // هنا يمكن وضعه في أي مكان مش مهم الترتيب علي عكس تلاتة اللي بعد كدا
-        title: "Oops...",
-        text: "The Site Name or URL is not valid.",
-        footer: `<p class="text-start fw-semibold">
-        <i class="icon-angle-double-right text-danger"></i>The Site Name must contain at least 3 characters and must not start with a space. 
-        <br>
-        <i class="icon-angle-double-right text-danger"></i> The Site URL must be valid.</p>`
+    en: {
+        msgErrorObj: {
+            icon: "error",
+            title: "Oops...",
+            text: "The Site Name or URL is not valid.",
+            footer: `<p class="text-start fw-semibold">
+                <i class="icon-angle-double-right text-danger"></i>The Site Name must contain at least 3 characters and must not start with a space.
+                <br>
+                <i class="icon-angle-double-right text-danger"></i> The Site URL must be valid.</p>`
+        },
+        msgSuccessObj: {
+            title: "Great work!",
+            text: "You've successfully added a bookmark.",
+            icon: "success",
+            timer: 1000
+        },
+        msgConfirmObj: {
+            title: "Are you sure?",
+            text: "You are about to delete this website. This action cannot be undone.",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!",
+            cancelButtonText: 'No, cancel'
+        },
+        msgDeleteObj: {
+            title: "Deleted!",
+            text: "Your site has been deleted.",
+            icon: "success",
+            timer: 1000
+        },
+        msgEditObj: {
+            title: 'Are you sure?',
+            text: 'You are about to save changes for this bookmark.',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, save changes!',
+            cancelButtonText: 'No, cancel'
+        },
+        msgSuccessEditObj: {
+            icon: 'success',
+            title: 'Successfully Updated!',
+            text: 'The bookmark changes have been saved.',
+            showConfirmButton: false,
+            timer: 1000
+        }
     },
-    msgSuccessObj: {
-        title: "Great work!",
-        text: "You've successfully added a bookmark.",
-        icon: "success",
-        timer: 1000
-    },
-    msgConfirmObj: {
-        title: "Are you sure?",
-        text: "You are about to delete this website. This action cannot be undone.",
-        icon: "warning",
-        showCancelButton: true,
-        confirmButtonColor: "#3085d6",
-        cancelButtonColor: "#d33",
-        confirmButtonText: "Yes, delete it!"
-    },
-    msgDeleteObj: {
-        title: "Deleted!",
-        text: "Your site has been deleted.",
-        icon: "success",
-        timer: 1000
-    },
-    msgEditObj: {
-        title: 'Are you sure?',
-        text: 'You are about to save changes for this bookmark.',
-        icon: 'warning',
-        showCancelButton: true,
-        confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
-        confirmButtonText: 'Yes, save changes!',
-        cancelButtonText: 'No, cancel'
-    },
-    msgSuccessEditObj: {
-        icon: 'success',
-        title: 'Successfully Updated!',
-        text: 'The bookmark changes have been saved.',
-        showConfirmButton: false,
-        timer: 1000
-    }
+    ar: {
+        msgErrorObj: {
+            icon: "error",
+            title: "عفوًا...",
+            text: "اسم الموقع أو عنوان الرابط غير صالح.",
+            footer: `<p class="text-start fw-semibold">
+                <i class="icon-angle-double-right text-danger"></i>يجب أن يحتوي اسم الموقع على 3 أحرف على الأقل ولا يجب أن يبدأ بمسافة.
+                <br>
+                <i class="icon-angle-double-right text-danger"></i>يجب أن يكون عنوان الرابط صالحًا.</p>`
+        },
+        msgSuccessObj: {
+            title: "عمل رائع!",
+            text: "تمت إضافة الإشارة المرجعية بنجاح.",
+            icon: "success",
+            timer: 1000
+        },
+        msgConfirmObj: {
+            title: "هل أنت متأكد؟",
+            text: "أنت على وشك حذف هذا الموقع. هذا الإجراء لا يمكن التراجع عنه.",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "نعم، احذفه!",
+            cancelButtonText: 'لا، إلغاء'
 
-}
+        },
+        msgDeleteObj: {
+            title: "تم الحذف!",
+            text: "تم حذف موقعك.",
+            icon: "success",
+            timer: 1000
+        },
+        msgEditObj: {
+            title: 'هل أنت متأكد؟',
+            text: 'أنت على وشك حفظ التغييرات في هذه الإشارة المرجعية.',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'نعم، احفظ التغييرات!',
+            cancelButtonText: 'لا، إلغاء'
+        },
+        msgSuccessEditObj: {
+            icon: 'success',
+            title: 'تم التحديث بنجاح!',
+            text: 'تم حفظ تغييرات الإشارة المرجعية.',
+            showConfirmButton: false,
+            timer: 1000
+        }
+    }
+};
+
+// تحديد اللغة حسب لغة الجهاز
+const userLang = navigator.language || navigator.userLanguage;
+const msgLang = userLang.startsWith("ar") ? "ar" : "en";
+
+// استخدم الرسائل بناءً على اللغة
+const selectedMessages = messagesAlert[msgLang];
+
 
 // ?=====================================================> Event Inputs <=====================================
 //  ^ ========================> < SubmitBtn > <==================================
@@ -102,11 +163,11 @@ $("#submitBtn").on("click", () => {
 
     if (uNameValidation(uName) && UrlValidation(Url)) {
         if (editIndex !== -1) {
-            Swal.fire(messagesAlert.msgEditObj)
+            Swal.fire(selectedMessages['msgEditObj'])
                 .then((result) => {
                     if (result.isConfirmed) {
                         addToBookmarks();
-                        Swal.fire(messagesAlert.msgSuccessEditObj);
+                        Swal.fire(selectedMessages['msgSuccessEditObj']);
                     } else if (result.isDismissed) {
                         $("#bookmarkName").val('');
                         $("#bookmarkURL").val('');
@@ -119,13 +180,13 @@ $("#submitBtn").on("click", () => {
             localStorage.setItem("url", $("#bookmarkURL").val());
             addToBookmarks();
             clearInput();
-            Swal.fire(messagesAlert.msgSuccessObj);
+            Swal.fire(selectedMessages['msgSuccessObj']);
         }
         firstInputElement.classList.remove("is-valid");
         secondInputElement.classList.remove("is-valid");
     }
     else {
-        Swal.fire(messagesAlert.msgErrorObj);
+        Swal.fire(selectedMessages['msgErrorObj']);
         firstInputElement.classList.add("is-invalid");
         secondInputElement.classList.add("is-invalid");
 
@@ -236,7 +297,7 @@ function addToBookmarks() {
 
 
 function deleteBookmark(index) {
-    Swal.fire(messagesAlert.msgConfirmObj)
+    Swal.fire(selectedMessages['msgConfirmObj'])
         .then((result) => {
             if (result.isConfirmed) {
                 bookmarks.splice(index, 1);
@@ -245,7 +306,7 @@ function deleteBookmark(index) {
                 if (bookmarks.length < 1) {
                     $('#tableSection').hide(300)
                 }
-                Swal.fire(messagesAlert.msgDeleteObj);
+                Swal.fire(selectedMessages['msgDeleteObj']);
             }
         });
 }
@@ -272,7 +333,7 @@ function saveEdits(editIndex) {
         editIndex = -1;  // إعادة ضبط الفهرس
         $("#bookmarkName").val('');  // إعادة تعيين الحقول
         $("#bookmarkURL").val('');
-        // Swal.fire(messagesAlert.msgSuccessEditObj);
+        // Swal.fire(selectedMessages['msgSuccessEditObj']);
     }
 }
 $("#submitBtn").on('click', saveEdits);
