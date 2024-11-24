@@ -47,9 +47,12 @@ const messagesAlert = {
         msgErrorObj: {
             icon: "error",
             title: "Oops...",
-            text: "The Site Name or URL is not valid.",
+            // text: "The Site Name or URL is not valid.",
+            html:`
+            <h3 class="fs-5 py-3 fw-bold text-dark"> Site Name or Url is not valid, Please follow the rules below 👇:</h3>
+            `,
             footer: `<p class="text-start fw-semibold">
-                <i class="icon-angle-double-right text-danger"></i>The Site Name must contain at least 3 characters and must not start with a space.
+                <i class="icon-angle-double-right text-danger"></i> The Site Name must contain at least 3 characters and must not start with a space.
                 <br>
                 <i class="icon-angle-double-right text-danger"></i> The Site URL must be valid.</p>`
         },
