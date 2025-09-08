@@ -7,7 +7,7 @@
     <tr>
       <td><img class="badge" src="https://img.shields.io/github/stars/OmarrSakr/Bookmarker-APP?style=plastic&color=ff8716" alt="GitHub stars"></td>
       <td><img class="badge" src="https://img.shields.io/github/forks/OmarrSakr/Bookmarker-APP?style=plastic&color=ff8716" alt="GitHub forks"></td>
-      <td><img class="badge" src="https://komarev.com/ghpvc/?username=OmarrSakr&style=plastic&color=blue&label=Views" alt="Repo Views"></td>
+      <td><img class="badge" src="https://komarev.com/ghpvc/?username=Bookmarker-APP&style=plastic&color=blue&label=Views" alt="Repo Views"></td>
     </tr>
     <tr>
       <td><img class="badge" src="https://img.shields.io/github/issues-pr/OmarrSakr/Bookmarker-APP?color=orange&style=plastic" alt="Pull Requests"></td>
@@ -32,18 +32,19 @@
 <br>
 
 **`Bookmarker`** is a lightweight bookmarking platform built with core web technologies (**`HTML`**, **`CSS`**, **`JavaScript`**) to provide a seamless experience for organizing and accessing your favorite links. It allows users to **add**, **edit**, **delete**, and **search** bookmarks with a clean, intuitive interface, stored locally using **localStorage**.
-
-<img src="./assets/Imgs/Bookmarker-1.png" alt="Bookmarker Demo" width="600">
-
 </div>
 
 <div align="center">
 
+<p align="center">
+
 ## 📊 Project Stats
 
-- 🔖 **Bookmarks**: Unlimited (stored in localStorage)
-- ⭐ **Average Rating**: 4.5/5 (based on user feedback)
-- 🌐 **Visitors**: <img class="badge" src="https://komarev.com/ghpvc/?username=OmarrSakr&style=plastic&color=blue&label=Views" alt="Repo Views">
+- 🔖 **Bookmarks**: Unlimited (stored in localStorage)  
+- ⭐ **Average Rating**: 4.5/5 (based on user feedback)  
+- 🌐 **Visitors**: <img class="badge" style="vertical-align: middle;" src="https://komarev.com/ghpvc/?username=Bookmarker-APP&style=plastic&color=blue&label=Views" alt="Repo Views">
+
+</p>
 
 ---
 
@@ -66,8 +67,8 @@
 
 <table>
   <tr>
-    <td><img src="./Bookmarker-1.png" width="200"></td>
-    <td><img src="./Bookmarker-2.png" width="200"></td>
+    <td><img src="./Bookmarker-1.png" width="500"></td>
+    <td><img src="./Bookmarker-2.png" width="500"></td>
   </tr>
 </table>
 </div>
