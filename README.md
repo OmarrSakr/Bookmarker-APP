@@ -32,6 +32,8 @@
 <br>
 
 **`Bookmarker`** is a lightweight bookmarking platform built with core web technologies (**`HTML`**, **`CSS`**, **`JavaScript`**) to provide a seamless experience for organizing and accessing your favorite links. It allows users to **add**, **edit**, **delete**, and **search** bookmarks with a clean, intuitive interface, stored locally using **localStorage**.
+
+<img src="./Bookmarker-1.png" alt="BuySpot Store Demo" width="600">
 </div>
 
 <div align="center">
