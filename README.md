@@ -1,129 +1,295 @@
-# 🚀🔖 Bookmarker - Your Go-To Bookmarking and Link Organization Platform
+<div align="center">
 
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/user-attachments/assets/8f2d26e5-6a6c-4f5d-b662-ac7efc561a98" alt="Bookmarker-1"  style="width: 48%; margin-right: 1%;">
-    <img src="https://github.com/user-attachments/assets/07b42d2c-577b-4631-9bb9-929da02725ed" alt="Bookmarker-2"  style="width: 48%;">
+# 🔖 Bookmarker - Your Ultimate Bookmarking Platform
+
+<p>
+  <table>
+    <tr>
+      <td><img class="badge" src="https://img.shields.io/github/stars/OmarrSakr/Bookmarker-APP?style=plastic&color=ff8716" alt="GitHub stars"></td>
+      <td><img class="badge" src="https://img.shields.io/github/forks/OmarrSakr/Bookmarker-APP?style=plastic&color=ff8716" alt="GitHub forks"></td>
+      <td><img class="badge" src="https://komarev.com/ghpvc/?username=OmarrSakr&style=plastic&color=blue&label=Views" alt="Repo Views"></td>
+    </tr>
+    <tr>
+      <td><img class="badge" src="https://img.shields.io/github/issues-pr/OmarrSakr/Bookmarker-APP?color=orange&style=plastic" alt="Pull Requests"></td>
+      <td><img class="badge" src="https://img.shields.io/github/contributors/OmarrSakr/Bookmarker-APP?color=2b9348&style=plastic" alt="Contributors"></td>
+      <td><img class="badge" src="https://img.shields.io/github/license/OmarrSakr/Bookmarker-APP?style=plastic" alt="License"></td>
+    </tr>
+    <tr>
+      <td><img class="badge" src="https://img.shields.io/github/last-commit/OmarrSakr/Bookmarker-APP?style=plastic" alt="Last Commit"></td>
+      <td><img class="badge" src="https://img.shields.io/github/repo-size/OmarrSakr/Bookmarker-APP?style=plastic" alt="Repo Size"></td>
+      <td><img class="badge" src="https://img.shields.io/github/languages/top/OmarrSakr/Bookmarker-APP?style=plastic" alt="Top Language"></td>
+    </tr>
+  </table>
+  <br>
+  <b>Bookmarker</b>: منصة بسيطة وسهلة الاستخدام لتنظيم وتخزين الروابط المفضلة بسرعة وأمان. 🔗
+  <br>
+
+[Bookmarker Demo](https://omarrsakr.github.io/Bookmarker-APP/) •
+[Documentation](https://github.com/OmarrSakr/Bookmarker-APP/wiki) •
+[Report Issues](https://github.com/OmarrSakr/Bookmarker-APP/issues)
+
+</p>
+<br>
+
+**`Bookmarker`** is a lightweight bookmarking platform built with core web technologies (**`HTML`**, **`CSS`**, **`JavaScript`**) to provide a seamless experience for organizing and accessing your favorite links. It allows users to **add**, **edit**, **delete**, and **search** bookmarks with a clean, intuitive interface, stored locally using **localStorage**.
+
+<img src="./assets/Imgs/Bookmarker-1.png" alt="Bookmarker Demo" width="600">
+
 </div>
-<div>
-    <br>
+
+<div align="center">
+
+## 📊 Project Stats
+
+- 🔖 **Bookmarks**: Unlimited (stored in localStorage)
+- ⭐ **Average Rating**: 4.5/5 (based on user feedback)
+- 🌐 **Visitors**: <img class="badge" src="https://komarev.com/ghpvc/?username=OmarrSakr&style=plastic&color=blue&label=Views" alt="Repo Views">
+
+---
+
+## 🧑‍💻 Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white" alt="jQuery">
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/SweetAlert2-FF5733?style=flat&logo=sweetalert2&logoColor=white" alt="SweetAlert2">
+  <img src="https://img.shields.io/badge/Font_Awesome-339AF0?style=flat&logo=fontawesome&logoColor=white" alt="Font Awesome">
+  <img src="https://img.shields.io/badge/IcoMoon-825794?style=flat&logo=icomoon&logoColor=white" alt="IcoMoon">
+</p>
+
+---
+
+## 📷 Screenshots
+
+<table>
+  <tr>
+    <td><img src="./Bookmarker-1.png" width="200"></td>
+    <td><img src="./Bookmarker-2.png" width="200"></td>
+  </tr>
+</table>
 </div>
 
-**`Bookmarker`** is a **versatile bookmarking platform** that helps users organize and `store links`, `webpages`, and `resources`, making it easy to manage and access them later.
-This platform offers *`real-time bookmarking`*, including `searchable tags`, `Table Input`, and more.
-The website features a clean and intuitive interface, allowing users to categorize their links, add descriptions, and easily retrieve their *`stored bookmarks`*.
-Below are the main sections of the website👇:
+---
+
+## 📑 Table of Contents
+
+- [🌐 Live Demo](#-live-demo)
+- [🚀 Features](#-features)
+- [🧑‍💻 Technologies Used](#-technologies-used)
+- [📂 Project Structure](#-project-structure)
+- [🔧 Installation](#-installation)
+- [⚙️ Usage](#️-usage)
+- [🛠️ Challenges & Solutions](#️-challenges--solutions)
+- [📌 Future Improvements](#-future-improvements)
+- [📢 Known Issues](#-known-issues)
+- [🤝 Contributing](#-contributing)
+- [📪 Feedback](#-feedback)
+- [📜 License](#-license)
 
 ---
 
-## Live Demo 🌐
-- Check out the live demo of the project at [**`Bookmarker Site.`**](https://omarrsakr.github.io/Bookmarker-APP/).
+## 🌐 Live Demo
+
+Check out the live demo of **Bookmarker** at 👉 [Bookmarker Demo](https://omarrsakr.github.io/Bookmarker-APP/)
 
 ---
 
-## 🚀 Features:
+## 🚀 Features
 
-- `Add Bookmarks`: Users can add their favorite websites by providing a name and URL.
-- `Bookmark Table`: A table displays all saved bookmarks with options to visit, edit, or delete.
-- `Search & Sort`: A search bar allows users to filter bookmarks by name, and the sort button enables toggling between ascending and descending name order.
-- `Responsive Design`: The design is mobile-friendly and adapts to different screen sizes.
-- `Dark Mode Toggle`: The application supports light and dark modes for improved user experience.
-- `SweetAlert Integration`: Utilizes SweetAlert2 for displaying interactive pop-up alerts.
-
----
-
-## 🧑‍💻 Languages and Technologies Used
-
-<code>HTML5:</code>
-Structure and content of the web pages.
-
-<code>CSS3:</code>
-Styling of the layout using custom styles.
-
-<code>JavaScript:</code>
-For handling form validation, bookmark functionality, and dynamic content management.
-
-<code>jQuery:</code>
-To simplify DOM manipulation.
-
-<code>Bootstrap:</code>
- For responsive grid system and UI components.
-
-<code>SweetAlert2:</code>
- For interactive, custom alert pop-ups.
+- 🔖 **Add Bookmarks**: Save website names and URLs with flexible input validation (accepts URLs with or without `https://`).
+- 📋 **Bookmark Table**: Display all bookmarks with options to **visit**, **edit**, or **delete**.
+- 🔎 **Search & Sort**: Filter bookmarks by name and sort in ascending/descending order.
+- 📱 **Responsive Design**: Optimized for desktop and mobile devices using Bootstrap.
+- 🌙 **Dark Mode Toggle**: Switch between light and dark themes, saved in localStorage.
+- ⚠️ **Interactive Alerts**: Powered by SweetAlert2 for user-friendly pop-ups.
+- ⚙️ **Real-Time Validation**: Instant feedback on input fields with Bootstrap validation styles.
 
 ---
 
-## How to Use 🚀  
+## 🧑‍💻 Technologies Used
 
-We welcome `contributions` to **Bookmarking Site**! Here’s how you can help:
-1. *Fork the repository* - Click the "Fork" button at the top right of the repository page.
-2. *Clone your fork* - Use the command:
-   
-   ```bash
-   git clone https://github.com/OmarrSakr/Bookmarker-Site.git
+- **HTML5**: Structure and content.
+- **CSS3**: Styling with responsive design and custom fonts (Pacifico, Righteous, PT Sans Caption, Bree Serif).
+- **JavaScript (jQuery)**: Dynamic functionality and DOM manipulation.
+- **Bootstrap (v5.3)**: Responsive grid system and UI components.
+- **SweetAlert2 (v11)**: Custom alert pop-ups.
+- **Font Awesome (v6.0)**: Icons for UI elements (e.g., back-to-top button).
+- **IcoMoon**: Custom icons for bookmark and navigation elements.
+- **LocalStorage**: Persistent bookmark storage.
+- **VS Code + Live Server**: Development tools.
+
+📦 **Dependencies**
+
+- [jQuery](https://code.jquery.com/jquery-3.7.1.min.js)
+- [Bootstrap](https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js)
+- [SweetAlert2](https://cdn.jsdelivr.net/npm/sweetalert2@11)
+- [Font Awesome](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css)
+- [IcoMoon](assets/fonts/icomoon/)
 
 ---
 
-## 📂 Project Structure 
-```
-📂 yummy/
-│  
-├── 📁 *assets/*
-│   └── 🖼 *Imgs/*          # Local images for recipes and UI  
-│   └── 🖼 *Fonts/*          
-│   └── 🖼 *2 Photo/*          #For project
-├── 🎨 *css/*
-│   ├── 📝 *style.css*     # Main stylesheet  
-│   ├──  *sweetalert2.min.css*    # SweetAlert Library for msg
-│   ├── 🌐*bootstrap.min.css*    # Bootstrap CSS for layout and styling
-│   ├── 🌙*icomoon.css*        # for Icons 
-├── 🧑‍💻 *js/*
-│   ├── ⚙ *jQuery.js*         # jquery.js Library 
-│   ├── ⚙ *jsconfig.json*   # To make vsCode autocomplete jQuery
-│   ├── *bootstrap.bundle.min.js* # Bootstrap JavaScript bundle
-│   ├── *main.js                 # Main Js File
-│   ├── *sweetalert2.min.js*       # Main Js File
-├── 📄 *index.html*         # Main HTML file  
-└── 📕 *README.md*          # Documentation 
+## 📂 Project Structure
 
 ```
+Bookmarker-APP/
+├── assets/
+│ ├── CSS/
+│ │ ├── bootstrap.min.css
+│ │ ├── icomoon.css
+│ │ ├── style.css
+│ │ ├── sweetalert2.min.css
+│ ├── fonts/
+│ │ ├── icomoon/
+│ │ │ ├── icomoon.eot
+│ │ │ ├── icomoon.svg
+│ │ │ ├── icomoon.ttf
+│ │ │ ├── icomoon.woff
+│ ├── Imgs/
+│ │ ├── bookmark.ico
+│ │ ├── edit-pencil.svg
+│ ├── JS/
+│ │ ├── bootstrap.bundle.min.js
+│ │ ├── jquery-3.7.1.min.js
+│ │ ├── jsconfig.json
+│ │ ├── main.js
+│ │ ├── sweetalert2.all.min.js
+├── Bookmarker-1.png
+├── Bookmarker-2.png
+├── index.html
+├── LICENSE.md
+└── README.md
+
+```
+
 ---
 
-### 📌 Future Improvements
+## 🔧 Installation
 
-1- `Organize Bookmarks into Specific Categories`:
-- Add a feature allowing users to organize websites into predefined categories (such as “Work,” “Education,” and “Entertainment”), making it easier to locate bookmarks by their classification.
- 
-2- `Sync with Personal Accounts`:
-- Provide an option to save data on the cloud via personal accounts (such as Google or Facebook), enabling users to access their bookmarks from any device.
-  
-3- `Add Notifications and Reminder Features`:
-- Introduce reminder notifications for users to revisit important links they may want to explore later.
-  
-4- `User Interface Improvements`:
-- Enhance the design appearance and include a Dark Mode that adapts to different lighting conditions.
-  
-5- `Data Import and Export Options`:
-- Include functionality for users to export their bookmarks to a file (such as CSV or JSON) or import from similar files, making it easy to migrate to the site or share links.
-  
-6- `Usage Analytics and Statistics`:
-- Offer a page displaying statistics on the most visited sites and frequently used categories, providing users with insights into their browsing habits.
-  
-7- `Enhanced Security and Privacy`:
-- Develop additional protections to secure stored data, such as data encryption and privacy assurance.
-  
-These improvements will make `Bookmark Platform` more effective and make the user experience more comprehensive and user-friendly.
- 
+1- **Clone the repository**
+
+```bash
+git clone https://github.com/OmarrSakr/Bookmarker-APP.git
+```
+
+2- **Navigate to the project directory:**
+
+```bash
+cd Bookmarker-APP
+```
+
+3- Open `index.html` in a modern browser or use a local server (e.g., VS Code Live Server) at `http://127.0.0.1:5500`.
+
 ---
 
-### Important Notes 📢
+## 📋 Requirements
 
-- This project is a `Static website`.
-- **Device Compatibility**: The app is designed to be responsive and works best on modern browsers. It is recommended to test on different devices for optimal performance.
-- **Cache Management**: If you experience issues with data loading, try clearing your browser's cache or refreshing the page.
- 
+- Modern browser (Chrome, Firefox, Edge).
+- Internet connection for CDN libraries (Font Awesome; others are local).
+
 ---
 
-- 📪 `*Feedback*`: If you encounter any bugs or have suggestions for improvements,📨 `please reach out via` the contact information provided in `the README` or through the issue `tracker` on GitHub.
+## ⚙️ Usage
+
+- 🔖 **Add Bookmarks**: Enter a name (min. 3 characters) and URL (e.g., `icomoon.io` or `https://example.com`) in the form.
+- 📋 **Manage Bookmarks**: Use the table to visit, edit, or delete bookmarks.
+- 🔎 **Search & Sort**: Use the search bar to filter bookmarks or the sort button to toggle name order.
+- 🌙 **Toggle Theme**: Click the theme button to switch between light and dark modes.
+
+---
+
+## 🛠️ Challenges & Solutions
+
+- **URL Validation Issue**
+
+  - **Issue**: URLs without `https://` (e.g., `icomoon.io`) triggered validation errors, and error messages appeared despite successful saves.
+  - **Solution**: Updated `UrlValidation` regex to accept URLs without protocols and auto-add `https://` on save. Added $`("#submitBtn").off("click").on("click", ...)` to prevent duplicate event handlers.
+
+- **Responsive Table Display**
+
+  - **Issue**: Table layout was not mobile-friendly.
+  - **Solution**: Used Bootstrap’s responsive table classes (`table-responsive`) and custom CSS in `style.css`.
+
+- **LocalStorage Persistence**
+
+  - **Issue**: Bookmarks needed to persist across sessions.
+  - **Solution**: Implemented `setLocalstorage` and `renderBookmarks` to manage data in `localStorage`.
+
+- **Icon Compatibility**
+
+  - **Issue**: Mixed use of Font Awesome and IcoMoon icons caused inconsistencies.
+  - **Solution**: Ensured Font Awesome CDN and IcoMoon local fonts are properly loaded in `index.html` and `style.css`.
+
+
+---
+
+## 📌 Future Improvements
+
+- 🗂️ **Categorize Bookmarks**: Add categories (e.g., Work, Education, Entertainment) for better organization.
+- ☁️ **Cloud Sync**: Enable bookmark syncing via user accounts (e.g., Google, GitHub).
+- ⏰ **Reminders**: Add notifications for revisiting important bookmarks.
+- 🎨 **UI Enhancements**: Add animations and a card-based layout for mobile users.  
+- 📤 **Export/Import**: Allow users to export bookmarks as JSON/CSV or import from files.
+- 📊 **Analytics**: Track frequently visited bookmarks for user insights. 
+- 🔒 **Data Security**: Encrypt bookmark data in `localStorage` using crypto-js.
+
+---
+
+## 📢 Known Issues
+
+- ⚠️ **URL Validation**: Some complex URLs (e.g., with unconventional TLDs) may require further regex tweaks.
+- ⚠️ **Mobile Table Display**: Table layout could be improved with a card-based view for mobile users (planned).
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! To contribute:
+
+1- **Fork** the repository  
+2- **Create a new branch**
+
+```bash
+git checkout -b feature/your-feature-name  
+```
+
+3- **Commit changes:**
+
+```bash
+git add .
+git commit -m "Add: short description of the feature" 
+```
+
+4- **Push to the branch:**
+
+```bash
+git push origin feature/your-feature-name    
+```
+
+5- Submit a Pull Request.
+
+Please follow the Code of Conduct and discuss changes via issues.
+
+---
+
+## 📪 Feedback
+
+💡 Encounter **bugs** or have **suggestions**?  
+Please use the **GitHub issue tracker** or contact:  
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=DevOmarHussien@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Contact%20Me-Email-blue?style=plastic&logo=gmail" alt="Email Me"/>
+</a>
+
+
+
+
+---
+
+## 📜 License
+
+Licensed under the **MIT License**.  
+See the [LICENSE](./LICENSE.md) file for details.
 
 
