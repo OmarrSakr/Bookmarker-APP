@@ -293,4 +293,12 @@ Please use the **GitHub issue tracker** or contact:
 Licensed under the **MIT License**.  
 See the [LICENSE](./LICENSE.md) file for details.
 
+---
 
+<div align="center">
+
+**⭐ If you found this project helpful, please give it a star! ⭐**
+
+*Built with ❤️ for the community*
+
+</div>
