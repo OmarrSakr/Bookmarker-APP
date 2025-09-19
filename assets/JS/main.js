@@ -405,15 +405,14 @@ $(document).on("keydown", (event) => {
     }
 });
 
-// Back to Top Button
-$(window).on("scroll", () => {
-    if ($(window).scrollTop() > 200) {
+$(window).on("scroll", function() {
+    if ($(this).scrollTop() > 200) {
         $("#back-to-top").addClass("visible");
     } else {
         $("#back-to-top").removeClass("visible");
     }
 });
 
-$("#back-to-top").on("click", () => {
-    $("html, body").animate({ scrollTop: 0 }, "smooth");
+$("#back-to-top").on("click", function() {
+    $("html, body").animate({ scrollTop: 0 }, 600);
 });
