@@ -42,8 +42,8 @@
 
 ## 📊 Project Stats
 
-- 🔖 **Bookmarks**: Unlimited (stored in localStorage)  
-- ⭐ **Average Rating**: 4.5/5 (based on user feedback)  
+- 🔖 **Bookmarks**: Unlimited (stored in localStorage)
+- ⭐ **Average Rating**: 4.5/5 (based on user feedback)
 - 🌐 **Visitors**: <img class="badge" style="vertical-align: middle;" src="https://komarev.com/ghpvc/?username=Bookmarker-APP&style=plastic&color=blue&label=Views" alt="Repo Views">
 
 </p>
@@ -225,7 +225,6 @@ cd Bookmarker-APP
   - **Issue**: Mixed use of Font Awesome and IcoMoon icons caused inconsistencies.
   - **Solution**: Ensured Font Awesome CDN and IcoMoon local fonts are properly loaded in `index.html` and `style.css`.
 
-
 ---
 
 ## 📌 Future Improvements
@@ -233,9 +232,9 @@ cd Bookmarker-APP
 - 🗂️ **Categorize Bookmarks**: Add categories (e.g., Work, Education, Entertainment) for better organization.
 - ☁️ **Cloud Sync**: Enable bookmark syncing via user accounts (e.g., Google, GitHub).
 - ⏰ **Reminders**: Add notifications for revisiting important bookmarks.
-- 🎨 **UI Enhancements**: Add animations and a card-based layout for mobile users.  
+- 🎨 **UI Enhancements**: Add animations and a card-based layout for mobile users.
 - 📤 **Export/Import**: Allow users to export bookmarks as JSON/CSV or import from files.
-- 📊 **Analytics**: Track frequently visited bookmarks for user insights. 
+- 📊 **Analytics**: Track frequently visited bookmarks for user insights.
 - 🔒 **Data Security**: Encrypt bookmark data in `localStorage` using crypto-js.
 
 ---
@@ -255,20 +254,20 @@ We welcome contributions! To contribute:
 2- **Create a new branch**
 
 ```bash
-git checkout -b feature/your-feature-name  
+git checkout -b feature/your-feature-name
 ```
 
 3- **Commit changes:**
 
 ```bash
 git add .
-git commit -m "Add: short description of the feature" 
+git commit -m "Add: short description of the feature"
 ```
 
 4- **Push to the branch:**
 
 ```bash
-git push origin feature/your-feature-name    
+git push origin feature/your-feature-name
 ```
 
 5- Submit a Pull Request.
@@ -282,11 +281,8 @@ Please follow the Code of Conduct and discuss changes via issues.
 💡 Encounter **bugs** or have **suggestions**?  
 Please use the **GitHub issue tracker** or contact:  
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=DevOmarHussien@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Contact%20Me-Email-blue?style=plastic&logo=gmail" alt="Email Me"/>
+<img src="https://img.shields.io/badge/Contact%20Me-Email-blue?style=plastic&logo=gmail" alt="Email Me"/>
 </a>
-
-
-
 
 ---
 
@@ -301,6 +297,8 @@ See the [LICENSE](./LICENSE.md) file for details.
 
 **⭐ If you found this project helpful, please give it a star! ⭐**
 
-*Built with ❤️ for the community*
+*Built with ❤️ by Omar Sakr*
+
+[![Follow on GitHub](https://img.shields.io/github/followers/OmarrSakr?style=social)](https://github.com/OmarrSakr)
 
 </div>
